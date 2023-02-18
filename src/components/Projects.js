@@ -66,22 +66,22 @@ export default function Projects(){
                     </div>
                 </div>
                 </a>
-                <a href="https://github.com/shubhamda111/React-Create-Memes" target="_blank">
+                <a href="https://github.com/srivastavshubham/React-Create-Memes" target="_blank">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" className="hover:bg-dark w-full h-full bg-dark-200 rounded-md py-4 px-4">
                     <img src={meme} className="w-full h-56 mx-auto object-cover" alt="a"></img>
                     <div className="mt-2">
                         <h1 className="font-bold md:text-xl">Create Meme's Demo</h1>
-                        <p className="font-light md:text-lg" style={{color:"#2E8BC0",fontWeight:'500'}}>URL :<label style={{color:"orange"}}> https://github.com/shubhamda111/React-Create-Memes</label></p>
+                        <p className="font-light md:text-lg" style={{color:"#2E8BC0",fontWeight:'500'}}>URL :<label style={{color:"orange"}}> https://github.com/srivastavshubham/React-Create-Memes</label></p>
                         <p className="font-light text-gray-400" style={{color:"#2E8BC0",fontWeight:'500'}}>Technology used <label style={{color:"orange"}}>React</label></p>
                     </div>
                 </div>
                 </a>
-                <a href="https://github.com/shubhamda111/React-Shopping-App" target="_blank">
+                <a href="https://github.com/srivastavshubham/React-Shopping-App" target="_blank">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" className="hover:bg-dark w-full h-full bg-dark-200 rounded-md py-4 px-4">
                     <img src={shopping} className="w-full h-56 mx-auto object-cover" alt="a"></img>
                     <div className="mt-2">
                         <h1 className="font-bold md:text-xl">Shopping Web Demo</h1>
-                        <p className="font-light md:text-lg" style={{color:"#2E8BC0",fontWeight:'500'}}>URL :<label style={{color:"orange"}}> https://github.com/shubhamda111/React-Shopping-App</label></p>
+                        <p className="font-light md:text-lg" style={{color:"#2E8BC0",fontWeight:'500'}}>URL :<label style={{color:"orange"}}> https://github.com/srivastavshubham/React-Shopping-App</label></p>
                         <p className="font-light text-gray-400" style={{color:"#2E8BC0",fontWeight:'500'}}>Technology used <label style={{color:"orange"}}>React, Context</label></p>
                     </div>
                 </div>

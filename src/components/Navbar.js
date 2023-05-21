@@ -1,4 +1,4 @@
-import resume from "../assets/resume.pdf"
+import resume from "../assets/Shubham Srivastava.pdf"
 
 export default function Navbar() {
     return (

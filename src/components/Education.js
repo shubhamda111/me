@@ -47,7 +47,6 @@ export default function Education(){
                     </div>
                 </div>
             </div>
-
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>
     )

@@ -19,8 +19,11 @@ export default function Hiro () {
             null
         }
         <div id="home" className="flex w-full h-screen flex-col md:flex-row  items-center justify-center text-white relative">
-            <div className='md:w-3/6 md:p-4'>
+            <div className='md:w-3/6 md:p-4 desktop-view'>
                 <img data-aos="flip-right" style={{borderRadius:'50%',height:"60%",width:"60%"}} data-aos-duration="1500" data-aos-offset="200"  src={profile} alt="profile" onLoad={() => setLoaded(false)} />
+            </div>
+            <div className='md:w-3/6 md:p-4 mobile-view'>
+                <img data-aos="flip-right" style={{borderRadius:'50%',height:"100%",width:"100%"}} data-aos-duration="1500" data-aos-offset="200"  src={profile} alt="profile" onLoad={() => setLoaded(false)} />
             </div>
             <div className='md:w-3/6 ml-0' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                 <div className="flex flex-col w-full mt-8">

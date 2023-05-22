@@ -13,6 +13,12 @@ export default function Footer(){
       </ul>
 
       <img src={hr} className="mb-4 mt-4 w-full md:h-1 text-white bottom-0" alt="hr" />
+      <br/>
+      <div className='footer_thankyou'>
+        <h1 style={{fontWeight:'bolder',fontSize:'25px',color:"orange"}}>Thank <span style={{color:"white"}}>You</span></h1>
+        <label>Thank you for taking the time to visit my profile. I truly appreciate your interest and the opportunity to share my background and experience with you. Your time is valuable, and I am grateful that you have chosen to spend some of it getting to know me.</label>
+      </div><br/>
+      <img src={hr} className="mb-4 mt-4 w-full md:h-1 text-white bottom-0" alt="hr" />
 
       <p className="text-sm font-light text-center">Copyright © 2023 Shubham Srivastava. All Right Reserved</p>
 

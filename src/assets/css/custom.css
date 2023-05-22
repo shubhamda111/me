@@ -1,7 +1,11 @@
 .mobile-view{
     display: none ;
   }
-
+.footer_thankyou{
+ margin: auto;
+ width: 50%;
+ text-align: center;
+}
 @media only screen and (max-width: 600px){
     .desktop-view{
         display: none;
@@ -9,4 +13,7 @@
       .mobile-view{
         display:block;
       }
+      .footer_thankyou{
+        width: 100%;
+       }
 }

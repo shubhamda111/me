@@ -39,7 +39,7 @@ export default function Honors(){
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" className="hover:bg-dark w-full h-full bg-dark-200 rounded-md py-4 px-4">
                     <img src={company1} className="w-full h-56 mx-auto object-cover" alt="a"></img>
                     <div className="mt-2">
-                        <p className="text-xl font-bold text-gray-300">Junior Software Developer (Internship)r</p>
+                        <p className="text-xl font-bold text-gray-300">Junior Software Developer (Internship)</p>
                         <p className=" text-gray-300">March 2020 to August 2020 </p>
                         <p>Worked for Trancis Consulting Service in a complete agile environment. Worked with clients to develop layout, color scheme for their website and implemented it into a final interface design with the HTML/CSS and JavaScript.Created webpages according to client's guidelines and standards throughout the development and maintenance of the website using HTML, XHTML, CSS and JavaScript.Leveraged React JS resources for all data access, encapsulating URL’s and standardizing data access interfaces.Skilled in leading frameworks as React JS to build high-quality, scalable and reusable components and Front-end solution.</p>
                      </div>

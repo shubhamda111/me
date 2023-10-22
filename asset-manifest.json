@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.115d9600.css",
-    "main.js": "/me/static/js/main.8c7f2088.js",
+    "main.css": "/me/static/css/main.4c8b2017.css",
+    "main.js": "/me/static/js/main.51059cf8.js",
     "static/js/787.a7249224.chunk.js": "/me/static/js/787.a7249224.chunk.js",
     "static/media/blockchain_certi.jpg": "/me/static/media/blockchain_certi.364ec7399365f40d13f6.jpg",
     "static/media/python.png": "/me/static/media/python.e655eec13ecc7cbb1b7b.png",
     "static/media/landing.png": "/me/static/media/landing.e9f776af2e572204db25.png",
     "static/media/shopping.png": "/me/static/media/shopping.5838b737fafe66fb9cb4.png",
     "static/media/hacking_certi1.jpg": "/me/static/media/hacking_certi1.8a3a5bfeb92e20b6803a.jpg",
+    "static/media/weather.png": "/me/static/media/weather.994f0cf9d2643a91e66e.png",
     "static/media/java_certificate.jpg": "/me/static/media/java_certificate.8f1b444043d1855d3da6.jpg",
     "static/media/csjm.png": "/me/static/media/csjm.2d65bfeced5de86bc99f.png",
     "static/media/explorer.png": "/me/static/media/explorer.5f4baa24d7fa7caebc3d.png",
@@ -41,12 +42,12 @@
     "static/media/express.svg": "/me/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "static/media/windows.svg": "/me/static/media/windows.7246ccf28ddce71d8cfd11c1ffc38c86.svg",
     "index.html": "/me/index.html",
-    "main.115d9600.css.map": "/me/static/css/main.115d9600.css.map",
-    "main.8c7f2088.js.map": "/me/static/js/main.8c7f2088.js.map",
+    "main.4c8b2017.css.map": "/me/static/css/main.4c8b2017.css.map",
+    "main.51059cf8.js.map": "/me/static/js/main.51059cf8.js.map",
     "787.a7249224.chunk.js.map": "/me/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.115d9600.css",
-    "static/js/main.8c7f2088.js"
+    "static/css/main.4c8b2017.css",
+    "static/js/main.51059cf8.js"
   ]
 }

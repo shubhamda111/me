@@ -1,29 +1,4 @@
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import SkillCard from "./SkillCard.js"
-
-import javascript from "../assets/skills/javascript.svg"
-import linux from "../assets/skills/linux.svg"
-import python from "../assets/skills/python.svg"
-import reactIcon from "../assets/skills/react.svg"
-import windows from "../assets/skills/windows.svg"
-import git from "../assets/skills/git.svg"
-import express from "../assets/skills/express.svg"
-import gitlab from "../assets/skills/gitlab.svg"
-import html from "../assets/skills/html.svg"
-import nodejs from "../assets/skills/nodejs.svg"
-import es6 from '../assets/skills/es6.jpg'
-import mongo from '../assets/skills/mongo.png'
-import npm from '../assets/skills/npm.png'
-import reactnative from '../assets/skills/reactntive.jpeg'
-import sql from '../assets/skills/sql.png'
-import vscode from '../assets/skills/vscode.png'
-import xcode from '../assets/skills/xcode.png'
-
-
-
-import hr from "../assets/curve-hr.svg"
+import hr from "../assets/images/curve-hr.svg"
 
 export default function Skills() {
     const settings = {
@@ -45,47 +20,56 @@ export default function Skills() {
         <div id="skills" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Skills and Technologies</h1>
             <p className="font-light text-gray-400">Here are some of my skills</p>
-             <div className="mt-4 desktop-view">
-                <Slider {...settings}>
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="nodejs" experience="1 years" img={nodejs} />
-                <SkillCard name="html" experience="1 years" img={html} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="es6" experience="1 years" img={es6} />
-                <SkillCard name="mongo" experience="1 years" img={mongo} />
-                <SkillCard name="npm" experience="1 years" img={npm} />
-                <SkillCard name="reactnative" experience="1 years" img={reactnative} />
-                <SkillCard name="sql" experience="1 years" img={sql} />
-                <SkillCard name="vscode" experience="1 years" img={vscode} />
-                <SkillCard name="xcode" experience="1 years" img={xcode} />
-                </Slider>
-            </div>
-            <div className="mt-4 mobile-view">
-                <Slider {...settings1}>
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="nodejs" experience="1 years" img={nodejs} />
-                <SkillCard name="html" experience="1 years" img={html} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="es6" experience="1 years" img={es6} />
-                <SkillCard name="mongo" experience="1 years" img={mongo} />
-                <SkillCard name="npm" experience="1 years" img={npm} />
-                <SkillCard name="reactnative" experience="1 years" img={reactnative} />
-                <SkillCard name="sql" experience="1 years" img={sql} />
-                <SkillCard name="vscode" experience="1 years" img={vscode} />
-                <SkillCard name="xcode" experience="1 years" img={xcode} />
-                </Slider>
+             <div className="mt-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div className='flex-1 flex flex-col gap-4 skill-custom-bg p-4 rounded-md shadow-lg'>
+                        <div className="text-primary font-medium text-lg tracking-wider">Frontend</div>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">HTML</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">CSS</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-red-500/60">Tailwind</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Javascript</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Typescript</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-blue-500/60">React Js</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-1 flex flex-col gap-4 skill-custom-bg p-4 rounded-md shadow-lg">
+                        <div class="text-primary font-medium text-lg tracking-wider">Backend</div>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-green-500/60">Node Js</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Express Js</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-yellow-500/60">Python</div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 flex flex-col gap-4 skill-custom-bg p-4 rounded-md shadow-lg">
+                        <div class="text-primary font-medium text-lg tracking-wider">Database</div>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-green-500/60">MySql</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">MongoDB</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-red-500/60">Redis</div>
+                        </div>
+                    </div>
+
+                    <div class="flex-1 flex flex-col gap-4 skill-custom-bg p-4 rounded-md shadow-lg">
+                        <div class="text-primary font-medium text-lg tracking-wider">Others</div>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">React Native</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Blockchain</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">AWS</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Git</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">ES6</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">NPM</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Android Studio</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Xcode</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Windows</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">Ubuntu</div>
+                            <div class="rounded-md bg-body text-xs text-primary p-2 border border-gray-500/60">VS Code</div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
         </div>

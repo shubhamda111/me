@@ -1,10 +1,8 @@
-import company from '../assets/coales.jpeg'
-import company1 from '../assets/trancis.jpeg'
+import company from '../assets/images/coales.jpeg'
+import company1 from '../assets/images/trancis.jpeg'
+import hr from "../assets/images/curve-hr.svg"
 
-
-import hr from "../assets/curve-hr.svg"
-
-export default function Honors(){
+export default function Work(){
     return (
         <div id="work" className="mt-4 text-white">
             <h1 className="text-2xl font-bold mb-3">Work Experiences</h1>

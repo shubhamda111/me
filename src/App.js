@@ -1,11 +1,11 @@
 import './App.css';
 import {useEffect} from 'react'
 import Navbar from './components/Navbar';
-import Hiro from './components/Hiro';
+import Home from './components/Home';
 import Skills from './components/Skills'
-import Honors from './components/Honors';
+import Work from './components/Work';
 import Project from './components/Projects';
-import Certs from './components/Certs';
+import Certificate from './components/Certificate';
 import Edu from './components/Education';
 import Footer from './components/Footer';
 import AOS from 'aos';
@@ -20,12 +20,12 @@ function App() {
   return (
     <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
       <Navbar />
-      <Hiro />
+      <Home />
       <Skills />
-      <Honors />
+      <Work />
       <Project />
       <Edu />
-      <Certs />
+      <Certificate />
       <Footer />
     </div>
   );

@@ -1,11 +1,10 @@
 import {useState} from 'react'
-
-import profile from '../assets/certs/photo.jpg';
+import profile from '../assets/images/photo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import hr from '../assets/curve-hr.svg'
+import hr from '../assets/images/curve-hr.svg'
 
-export default function Hiro () {
+export default function Home () {
 
     const [loaded, setLoaded] = useState(true);
 

@@ -1,8 +1,6 @@
-import galgotia from '../assets/galgotia.png'
-import csjm from '../assets/csjm.png'
-
-
-import hr from "../assets/curve-hr.svg"
+import galgotia from '../assets/images/galgotia.png'
+import csjm from '../assets/images/csjm.png'
+import hr from "../assets/images/curve-hr.svg"
 
 export default function Education(){
     return (

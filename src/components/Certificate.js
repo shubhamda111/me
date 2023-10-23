@@ -1,13 +1,13 @@
-import hr from "../assets/curve-hr.svg"
-import blockchain_certi from "../assets/certs/blockchain_certi.jpg"
-import hacking_certi from "../assets/certs/hacking_certi.jpg"
-import hacking_certi1 from "../assets/certs/hacking_certi1.jpg"
+import hr from "../assets/images/curve-hr.svg"
+import blockchain_certi from "../assets/images/blockchain_certi.jpg"
+import hacking_certi from "../assets/images/hacking_certi.jpg"
+import hacking_certi1 from "../assets/images/hacking_certi1.jpg"
 
-import java_certi from "../assets/certs/java_certificate.jpg"
-import python_certi from "../assets/certs/python.png"
+import java_certi from "../assets/images/java_certificate.jpg"
+import python_certi from "../assets/images/python.png"
 
 
-export default function Certs(){
+export default function Certificate(){
     return (
         <div id="certs" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Certifications</h1>

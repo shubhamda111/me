@@ -3,6 +3,16 @@ import company1 from '../assets/images/trancis.jpeg'
 import hr from "../assets/images/curve-hr.svg"
 
 export default function Work(){
+
+    const experienced=()=>{
+        var pastDate = new Date("2020-08-20");
+        var currentDate = new Date();
+        var timeDifference = currentDate - pastDate;
+        var years = Math.floor(timeDifference / (365 * 24 * 60 * 60 * 1000));
+        var months = Math.floor((timeDifference % (365 * 24 * 60 * 60 * 1000)) / (30 * 24 * 60 * 60 * 1000));
+        return `(${years} yrs ${months} mos)`
+    }
+
     return (
         <div id="work" className="mt-4 text-white">
             <h1 className="text-2xl font-bold mb-3">Work Experiences</h1>
@@ -12,7 +22,7 @@ export default function Work(){
                     <img className="card-img-top" src={company} alt="Card image cap"/>
                     <div className="card-body ml-5 ">
                     <p className="text-xl font-bold text-gray-300">Sr. Software Engineer (Full stack developer)</p>
-                    <p className=" text-gray-300">August 2020 to Present</p>
+                    <p className=" text-gray-300">August 2020 to Present {experienced()}</p>
                     <p className="card-text">Working for Coalescence Technologies in a complete agile environment. Responsible for designing and implementing new innovative features and functionalities, establishing the MongoDB, Express, React and Node.js- MERN Stack website’s architecture, ensuring high-performance and availability, and managing all MERN Stack development & technical aspects. Wrrking with a Blockchain client and making back-end with Node, Express and Mongo doing inegration in front-end for them. I work closely with project stack holders and end customers to ensure an effective, visually appealing, and intuitive implementation. Also worked in app development with React-Native. Making from scratches to doing live on app store an play store. Also leading a team of 9 members to mentor, guide and assign them project tasks.</p>
                     </div>
                 </div>
